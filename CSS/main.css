@@ -689,7 +689,19 @@ body {
     color: black;
     font-weight: 500;
 }
-
+.divs .footer .last{
+    position: absolute;
+    margin-top: 250px;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
+.divs .footer .last p{
+    padding: 7px;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 14.8px;
+}
 .divs .footer .para ul li div button:hover {
     color: black;
 }
@@ -818,12 +830,15 @@ body {
 
     .divs .footer {
         width: 100%;
-        height: 90vh;
+        height: 100vh;
         margin-top: 450px;
         display: flex;
         flex-direction: column-reverse;
     }
-
+    .divs .footer .last p{
+        padding: 0;
+            
+    }
     .divs .footer .para {
         width: 100%;
         margin: 0;
