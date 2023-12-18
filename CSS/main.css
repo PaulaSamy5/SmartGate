@@ -1,0 +1,943 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: white 0% 0% no-repeat padding-box;
+    font-family: cairo;
+    overflow-x: hidden;
+}
+
+.all {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+.all .nav {
+    padding: 10px;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+    color: #2B2B2B;
+    font-family: cairo;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.all .text {
+    display: flex;
+    width: 70%;
+    justify-content: right;
+}
+
+.nav .text ul {
+    display: flex;
+    list-style-type: none;
+    float: left;
+    padding-top: 40px;
+    height: 70px;
+    padding-bottom: 0;
+}
+
+.nav .text ul li {
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+.nav .text ul li a {
+    color: #000;
+    text-decoration: none;
+    padding-bottom: 3px;
+    transition: all 0.2s;
+    font-size: 20px;
+}
+
+.nav .text ul li a:hover {
+    color: #EE8E3D;
+    border-bottom: 1px solid #EE8E3D;
+}
+
+.nav .text .logo img {
+    width: 76px;
+    height: auto;
+    margin-left: 40px;
+    padding-left: 20px;
+    padding-top: 21px;
+}
+
+.all .nav .bu {
+    float: right;
+    width: 30%;
+    padding-top: 30px;
+    padding-bottom: 39px;
+    font-weight: bold;
+}
+
+.all .nav .bu button {
+    width: 133px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.all .nav .bu .log-in {
+    background: #F4A825 0% 0% no-repeat padding-box;
+    color: #000;
+    border: none;
+}
+
+.all .nav .bu .new {
+    background-color: transparent;
+    color: #1C67AA;
+    border: 1px solid #1C67AA;
+
+}
+
+.all .nav {
+    padding-bottom: 100px;
+    /* background-color: darkblue;*/
+}
+
+.all .kk {
+    position: absolute;
+    float: right;
+    top: 200px;
+    right: 226px;
+}
+
+.all .kk img {
+    width: 95px;
+
+}
+
+.all .rectangle {
+    position: absolute;
+    width: 595px;
+    height: 595px;
+    top: 155px;
+    left: 1475px;
+    border: 35px solid #F4A825;
+    border-radius: 298px;
+    opacity: 1;
+}
+
+.all .content {
+
+    display: flex;
+    width: 85%;
+    margin: auto;
+    /*background-color: red;*/
+    justify-content: space-between;
+}
+
+.all .content .photo {
+    width: 30%;
+    padding-left: 55555555px;
+    background-color: #333;
+}
+
+.all .content img {
+    width: 450px;
+}
+
+.all .content .info {
+    margin-right: 100px;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 70px;
+    /*background-color: burlywood;*/
+    text-align: right;
+    font-family: 'Cairo', sans-serif;
+}
+
+.all .content .info h1 {
+    justify-content: center;
+    text-align: center;
+    font-size: 90px;
+    display: flex;
+    color: #F4A825;
+    font-weight: 700;
+    padding: 20px;
+    margin-left: 40px;
+}
+
+.all .content .info h1 span {
+    color: #3485B9;
+}
+
+.all .content .info p {
+    margin: auto;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.all .content .info button {
+    width: 140px;
+    height: 40px;
+    background-color: #F4A825;
+    color: #2B2B2B;
+    font-weight: 500;
+    border: none;
+    margin: 20px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.all .blue-image {
+    position: absolute;
+    top: 585px;
+    left: 720px;
+}
+
+.all .blue-image img {
+    width: 95px;
+}
+
+.all .small-rec {
+    width: 215px;
+    height: 190px;
+    border: 35px solid #3485B9;
+    border-radius: 298px;
+    opacity: 1;
+    position: absolute;
+    top: 180px;
+    left: -158px;
+}
+
+.all .dot {
+    position: absolute;
+    /* Layout Properties */
+    top: 180px;
+    left: 800px;
+    width: 18px;
+    height: 18px;
+    /* UI Properties */
+    background: transparent url('img/Rectangle 1784.png') 0% 0% no-repeat padding-box;
+    border: 6px solid #F8C607;
+    border-radius: 274px;
+    opacity: 1;
+}
+
+.divs {
+    width: 100%;
+    background-color: #F8F8F8;
+    height: 100%;
+}
+
+.divs .start {
+    width: 90%;
+    margin: auto;
+    padding-top: 60px;
+    height: 500px;
+}
+
+.divs .start h1 {
+    border-right: rgb(28, 139, 123) solid 4px;
+    padding: 5px 20px;
+    margin: 30px;
+    font-weight: 900;
+    margin-right: 36px;
+}
+
+.divs .start .n {
+    width: 27%;
+    height: auto;
+    margin: 0 40px 42px 40px;
+    text-align: right;
+    background-color: white;
+    box-shadow: 0px 60px 99px #00000014;
+    border-radius: 30px;
+    float: right;
+}
+
+.divs .start .n img {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.divs .start .n .date span {
+    font-size: 14px;
+    color: #919191;
+    padding-bottom: 10px;
+}
+
+.divs .start .n p {
+    padding: 5px 20px;
+    font-size: 17px;
+    font-weight: 700;
+
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+
+.start {
+    padding-right: 10px;
+    text-align: right;
+    line-height: 28px;
+
+}
+
+
+.divs .service {
+    width: 90%;
+    margin: auto;
+    text-align: right;
+}
+
+.divs .service h1 {
+    border-right: rgb(28, 139, 123) solid 4px;
+    padding: 5px 20px;
+    margin: 30px;
+    font-weight: 900;
+    margin-right: 36px;
+}
+
+.divs .service .s {
+    float: right;
+    width: 22%;
+    height: 360px;
+    margin: 20.5px;
+    background-color: white;
+    text-align: right;
+    justify-content: right;
+    align-items: center;
+    display: block;
+    border-radius: 30px;
+    box-shadow: 0px 60px 99px #00000014;
+}
+
+.divs .service .s .photo {
+    width: 40%;
+    height: 30%;
+    float: right;
+    margin: 25px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+
+.divs .service .s img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.divs .service .s h3 {
+    margin-top: 160px;
+    padding: 0px 22px;
+    font-weight: 900;
+    font-size: 27px;
+}
+
+.divs .service .s p {
+    color: #919191;
+    font-weight: 800;
+    font-size: 18px;
+    padding: 5px 22px;
+
+}
+
+.divs .service .s .photo.one {
+    background-color: #ead78a;
+}
+
+.divs .service .s .photo.two {
+    background-color: #f3ba96;
+}
+
+.divs .service .s .photo.three {
+    background-color: #b390f7;
+}
+
+.divs .service .s .photo.four {
+    background-color: #83d7f6;
+}
+
+.divs .de {
+    width: 90%;
+    margin: auto;
+    text-align: right;
+}
+
+.divs .de .d {
+    width: 28%;
+    float: left;
+    height: 430px;
+    margin: 35px;
+    border-radius: 0px 0px 30px 30px;
+    text-align: center;
+}
+
+.divs .de .d .ph {
+    width: 100%;
+    background-color: #F8F8F8;
+    height: 82%;
+}
+
+.divs .de .d img {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    height: 100%;
+}
+
+.divs .de .d p {
+    margin-top: 20px;
+    font-size: 28px;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+.divs .de .d.one {
+    background-color: #00D586;
+}
+
+.divs .de .d.two {
+    background-color: #F86707;
+}
+
+.divs .de .d.three {
+    background-color: #07BEF8;
+}
+
+.divs .de h1 {
+    border-right: rgb(28, 139, 123) solid 4px;
+    padding: 5px 20px;
+
+    margin: 30px;
+    font-weight: 900;
+    margin-right: 36px;
+}
+
+.divs .nda {
+    width: 90%;
+    margin: auto;
+    text-align: right;
+}
+
+.divs .nda h1 {
+    border-right: rgb(28, 139, 123) solid 4px;
+    padding: 5px 20px;
+    margin: 30px;
+    font-weight: 900;
+    margin-right: 36px;
+}
+
+.divs .nda .nd {
+    background-color: blue;
+    width: 31%;
+    float: left;
+    margin: 12px;
+    border-radius: 30px;
+    box-shadow: 0px 60px 99px hsla(0, 0%, 0%, 0.08);
+    background-color: hsla(0, 0%, 100%, 1);
+    height: 400px;
+}
+
+.divs .nda .nd img {
+    width: 100%;
+    height: 60%;
+    border-radius: 30px;
+}
+
+.divs .nda .nd h4 {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px 10px 0 0;
+}
+
+.divs .nda .nd p {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #919191;
+    padding-bottom: 10px;
+}
+
+.divs .nda .nd button {
+    padding: 8px 20px;
+    background-color: hsla(38, 90%, 55%, 1);
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    margin: 0 10px 25px 0;
+}
+
+.divs .customer {
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    text-align: right;
+}
+
+.divs .customer h1 {
+    border-right: rgb(28, 139, 123) solid 4px;
+    padding: 5px 20px;
+    margin: 30px;
+    font-weight: 900;
+    margin-right: 36px;
+}
+
+.divs .customer .c {
+    background-color: white;
+    width: 18%;
+    height: 50%;
+    float: left;
+    margin: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0px 60px 99px #00000014;
+    border-radius: 30px;
+}
+
+.divs .customer .c img {
+    width: 200px;
+    height: 200px;
+}
+
+.divs .contact {
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    margin-top: 60px;
+    text-align: right;
+}
+
+.divs .contact h1 {
+    border-right: rgb(28, 139, 123) solid 4px;
+    padding: 5px 20px;
+    margin: 30px;
+    font-weight: 900;
+    margin-right: 36px;
+    margin-bottom: 20px;
+}
+
+.divs .contact .info {
+    width: 40%;
+    height: 90%;
+    margin: 34px;
+    float: left;
+    text-align: right;
+
+    margin-top: 22px;
+}
+
+.divs .contact .info.map {
+    width: 50%;
+    box-shadow: 0px 60px 99px #00000014;
+    border-radius: 30px;
+}
+
+.divs .contact .info label {
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 550;
+    margin-right: 10px;
+}
+
+.divs .contact .info input {
+    border: none;
+    border: 2px solid #DFDFDF;
+    border-radius: 13px;
+    background-color: #F2F1F5;
+    width: 85%;
+    height: 48px;
+    text-align: right;
+    padding: 10px;
+    color: #979797;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+.divs .contact .info select {
+    text-align: right;
+    margin: 5px;
+    margin-left: 14%;
+    width: 85%;
+    /*background: no-repeat right center; /* Add your reversed arrow icon */
+    background-size: 20px;
+    /* Adjust the size of the arrow icon */
+    padding-right: 20px;
+    /* Adjust the space for the arrow icon */
+    background-color: #F2F1F5;
+    padding: 10px;
+    border: 2px solid #DFDFDF;
+    border-radius: 13px;
+    color: #979797;
+    position: relative;
+    padding-right: 40px;
+}
+
+.divs .contact .info select i {
+    color: #979797;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+}
+
+.divs .contact .info textarea {
+    border: none;
+    border: 2px solid #DFDFDF;
+    border-radius: 13px;
+    background-color: #F2F1F5;
+    width: 85%;
+    height: 130px;
+    text-align: right;
+    padding: 10px;
+    color: #979797;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+.divs .contact .info.map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.divs .yellow {
+    width: 88%;
+    height: 40vh;
+    background-color: red;
+    margin: auto;
+    background-image: url(../Images/yel.png);
+    background-size: 100% 100%;
+    border-radius: 30px;
+
+}
+
+.divs .footer {
+    width: 100%;
+    height: 40vh;
+    background-color: #3485B9;
+    text-align: right;
+    display: flex;
+}
+
+.divs .footer .para {
+    width: 22%;
+    height: 100%;
+    float: left;
+
+}
+
+.divs .footer .para.long {
+    width: 35%;
+}
+
+.divs .footer img {
+    width: 30%;
+    height: 37%;
+    margin-top: 22px;
+    margin-right: 60px;
+
+}
+
+.divs .footer .para p {
+    padding-top: 22px;
+    padding-right: 65.5px;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+.divs .footer i {
+    color: rgb(243, 190, 92);
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+.divs .footer .para span {
+    padding-right: 17px;
+}
+
+.divs .footer .para ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.divs .footer .para ul li {
+    padding: 7px;
+    color: #FFFFFF;
+    font-size: 14.8px;
+}
+
+.divs .footer .para ul li div {
+    width: 80%;
+    height: 40px;
+    float: right;
+}
+
+.divs .footer .para ul li div input {
+    text-align: right;
+    padding-right: 15px;
+    border-radius: 0px 12px 12px 0px;
+    color: #979797;
+}
+
+.divs .footer .para ul li div button {
+    background-color: rgb(245, 173, 40);
+    border: none;
+    color: black;
+    font-weight: 500;
+}
+
+.divs .footer .para ul li div button:hover {
+    color: black;
+}
+
+@media(max-width:800px) {
+    .nav .text ul {
+        display: none;
+    }
+
+    .divs .start {
+        height: 100%
+    }
+
+    .divs .start .n {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .divs .start {
+        height: auto;
+    }
+    .divs .start h1 {
+        margin-left: 0;
+        border-bottom: rgb(28, 139, 123) solid 4px;
+        border-right: none;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .divs .service h1 {
+        margin-top: 1200px;
+        text-align: center;
+        border-bottom: rgb(28, 139, 123) solid 4px;
+        border-right: none;
+    }
+
+    .divs .service .s {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .divs .de {
+        width: 90%;
+        margin: auto;
+        text-align: right;
+    }
+
+    .divs .de h1 {
+        text-align: center;
+        border-bottom: rgb(28, 139, 123) solid 4px;
+        border-right: none;
+    }
+
+    .divs .de .d {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .divs .nda h1 {
+        text-align: center;
+        margin-top: 960px;
+        border-bottom: rgb(28, 139, 123) solid 4px;
+        border-right: none;
+
+    }
+
+    .divs .nda .nd {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .divs .yellow {
+        width: 90%;
+        margin-top: 1100px;
+    }
+
+    .divs .customer {
+        height: auto;
+        margin: auto;
+    }
+
+    .divs .customer h1 {
+        margin-top: 800px;
+        text-align: center;
+        border-bottom: rgb(28, 139, 123) solid 4px;
+        border-right: none;
+    }
+
+    .divs .customer .c {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .divs .contact {
+        width: 90%;
+        height: 600px;
+        margin: auto;
+        margin-top: 60px;
+        text-align: right;
+    }
+
+    .divs .contact h1 {
+        margin-top: 1200px;
+        text-align: center;
+        border-bottom: rgb(28, 139, 123) solid 4px;
+        border-right: none;
+    }
+
+    .divs .contact .info {
+        margin-bottom: 30px;
+        width: 100%;
+        margin: auto;
+        height: 60vh;
+    }
+
+    .divs .contact .info.map {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .divs .footer {
+        width: 100%;
+        height: 90vh;
+        margin-top: 450px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .divs .footer .para {
+        width: 100%;
+        margin: 0;
+        height: 15%;
+        margin: auto;
+        padding: 0;
+
+    }
+
+    .divs .footer .para img {
+        padding: 0;
+        margin: 18px;
+        height: 60%;
+        margin-bottom: 5px;
+    }
+
+    .divs .footer .para p {
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        margin: 18px;
+    }
+
+    .divs .footer .para.long {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .divs .footer .para li {
+        padding: 0;
+    }
+
+    .divs .footer .para.long div {
+        width: 85%;
+    }
+
+    .all {
+        height: 150vh;
+        background-attachment: fixed;
+    }
+
+    .all .content {
+
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+    .all .content .photo {
+        margin: auto;
+        width: 100%;
+    }
+
+    .all .content img {
+        display: flex;
+        width: 350px;
+        margin: auto;
+    }
+
+    .all .content .info {
+        margin-top: 50px;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .all .content .info h1 {
+        margin: auto;
+        margin-right: 10%;
+        text-align: center;
+        font-size: 45px;
+        font-weight: 800;
+        padding: 20px;
+        margin-left: 40px;
+    }
+
+    .all .content .info button {
+        width: 60%;
+        height: 45px;
+        font-weight: 550;
+    }
+
+
+    .all .kk img {
+        display: none;
+    }
+
+    .all .rectangle {
+        left: 350px;
+        top: 250px;
+    }
+
+    .all .nav .bu {
+        float: right;
+        width: 30%;
+        padding-top: 30px;
+        padding-bottom: 39px;
+        font-weight: bold;
+    }
+
+    .all .nav .bu button {
+        margin-bottom: 10px;
+        width: 133px;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    .all .small-rec {
+        top: 150px;
+        left:-180px;
+        border: 30px solid #3485B9;
+
+    }
+}
