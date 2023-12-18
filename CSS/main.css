@@ -707,6 +707,9 @@ body {
 }
 
 @media(max-width:800px) {
+    body{
+        overflow-x: hidden;
+    }
     .nav .text ul {
         display: none;
     }
@@ -927,12 +930,12 @@ body {
     .all .kk img {
         display: none;
     }
-
-    .all .rectangle {
-        left: 350px;
-        top: 250px;
+    .all .kk{
+        display: none;
     }
-
+    .all .rectangle {
+        display: none;
+    }
     .all .nav .bu {
         float: right;
         width: 30%;
@@ -955,4 +958,15 @@ body {
         border: 30px solid #3485B9;
 
     }
+
+    .all .blue-image {
+        display: none;
+    }
+    .all .dot {
+        display: none;
+    }
+    .all{
+        overflow: hidden;
+    }
+    
 }
